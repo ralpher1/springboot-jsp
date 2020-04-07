@@ -8,7 +8,6 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 //import org.springframework.boot.context.web.SpringBootServletInitializer;
 
 
-
 @SpringBootApplication
 public class WebApplication extends SpringBootServletInitializer {
     @Override
@@ -18,6 +17,7 @@ public class WebApplication extends SpringBootServletInitializer {
 
     public static void main(String[] args) throws Exception {
         SpringApplication.run(WebApplication.class, args);
+
     }
 }
 

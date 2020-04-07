@@ -10,6 +10,7 @@ public class HelloController {
     @RequestMapping("/hello123")
     public String hello123(Model model, @RequestParam(value="name", required=false, defaultValue="World") String name) {
         model.addAttribute("name", name);
+
         return "hello";
     }
 }
