@@ -7,6 +7,7 @@
 </head>
 <body>
 Helloasdasd ${name}
-Then we got even more ${name}
+Then we got even more ${num1}
+
 </body>
 </html>
