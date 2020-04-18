@@ -1,0 +1,8 @@
+catalina file
+JAVA_OPTS="$JAVA_OPTS -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:8081"
+
+debug.sh
+ - no idea if this is used
+set JPDA_ADDRESS=8081
+set JPDA_TRANSPORT=dt_socket
+sudo ./catalina.sh jpda start
